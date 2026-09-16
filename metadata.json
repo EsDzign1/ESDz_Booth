@@ -1,0 +1,8 @@
+{
+  "name": "ES Dzign Research",
+  "description": "Exhibition booth design workspace and real-time 3D reviews by ES Dzign Research",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

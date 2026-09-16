@@ -1,4 +1,5 @@
 import React from 'react';
+import esLogo from '../assets/images/es_dzign_logo_1789547436350.jpg';
 
 interface ESDzignLogoProps {
   size?: 'sm' | 'md' | 'lg' | 'xl';
@@ -32,7 +33,7 @@ export const ESDzignLogo: React.FC<ESDzignLogoProps> = ({
     return (
       <div className={`relative rounded-full overflow-hidden bg-white border border-zinc-200/80 shadow-sm flex items-center justify-center ${badgeSizeMap[size]} ${className}`}>
         <img
-          src="/es-dzign-logo.jpg"
+          src={esLogo}
           alt="ES Dzign Research"
           className="w-full h-full object-contain p-0.5"
           referrerPolicy="no-referrer"
@@ -51,7 +52,7 @@ export const ESDzignLogo: React.FC<ESDzignLogoProps> = ({
         {/* Circular Badge */}
         <div className="relative w-28 h-28 sm:w-32 sm:h-32 rounded-full bg-white border border-zinc-300 shadow-xl overflow-hidden p-1.5 flex items-center justify-center">
           <img
-            src="/es-dzign-logo.jpg"
+            src={esLogo}
             alt="ES Dzign Research"
             className="w-full h-full object-contain"
             referrerPolicy="no-referrer"
@@ -77,7 +78,7 @@ export const ESDzignLogo: React.FC<ESDzignLogoProps> = ({
       {/* Circular Badge with User's Uploaded Brand Emblem */}
       <div className={`relative rounded-full bg-white border border-zinc-700/50 shadow-md shadow-black/40 overflow-hidden flex-shrink-0 flex items-center justify-center p-0.5 ${badgeSizeMap[size]}`}>
         <img
-          src="/es-dzign-logo.jpg"
+          src={esLogo}
           alt="ES Dzign Research Logo"
           className="w-full h-full object-contain"
           referrerPolicy="no-referrer"
